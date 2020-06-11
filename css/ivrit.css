@@ -48,7 +48,7 @@ h1 {
   }
   .logo {
      font-size: 18px;
-     color: rgb(132, 135, 138);
+     color: black;
      text-transform: uppercase;
      font-family: 'Montserrat', sans-serif;
      font-weight: 700;
@@ -56,6 +56,7 @@ h1 {
      border: 3px solid white;
      border-radius: 5px;
      text-align: center;
+     background: white;
 
   }
   .menu {
@@ -107,17 +108,36 @@ h1 {
     left: 50%;
     position: absolute;
     margin-left: -23px;
-    bottom: 5%;
+    bottom: 20%;
+ }
+ .fa-chevron-down {
+    color: white;
  }
  .main__title {
    margin-top: 200px;
-   font-size: 50px;
+   font-size: 60px;
    text-align: left;
  }
  .main__title span {
-    font-size: 35px;
+    font-size: 45px;
  }
  .second__title {
     font-size: 40px;
     font-weight: 900;
+ }
+ .btn {
+    font-size: 22px;
+    border: 1px solid red;
+    border-radius: 50px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    background: red;
+    margin: 50px 10px;
+    padding: 10px 20px;
+ }
+ .btn:hover {
+    background: orange;
+    color: black;
+    border: 1px solid black;
+    transition: color 0.5s linear;
  }
