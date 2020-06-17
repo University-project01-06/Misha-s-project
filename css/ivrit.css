@@ -17,8 +17,8 @@ ul, li {
     padding: 0px;
     margin: 0px;
 }
-  section {
-    padding-top: 110px;
+section {
+    padding-top: 100px;
 }
 h1 {
    font-family: 'Open Sans', sans-serif;
@@ -38,7 +38,7 @@ h1 {
  }
  /* HEADER */
  #first {
-    background: url(../img/hebrew.jpg) no-repeat center top / cover;
+    background: url(../img/hebrew.jpg) no-repeat fixed center top / cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,7 +102,7 @@ h1 {
     left: 50%;
     position: absolute;
     margin-left: -23px;
-    bottom: 1%;
+    bottom: 6%;
     margin-bottom: -2px;
 }
  .fa-chevron-down {
@@ -137,16 +137,56 @@ h1 {
     border: 1px solid black;
     transition: color 0.5s linear;
  }
- /* SECTION */
- .recommend {
+ /* SECTION 2 */
+ .heading-second-section {
     color: black;
+ }
+ .second-section-rectangle__paragraph{
+      margin-top: 75px;
+      color: black;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: normal;
+      font-size: 15px;
+      text-align: center;
+      font-weight: 900;
+      border: 1px dashed black;
+      height: 152px;
+      padding-top: 37px;
+ }
+ .second-section-rectangle__span{
+   width: 30px;
+   height: 30px;
+   border: 1px dashed black;
+   border-radius: 50%;
+   display: block;
+   position: absolute;
+   left: 50%;
+   margin-left: -19px;
+   top: 10%;
+   margin-top: 34px;
+   background: white;
+ }
+ .fa-caret-down{
+    padding: 8px 9px 10px 9px
+ }
+ .second-section-rectangle__span_second{
+   width: 30px;
+   height: 30px;
+   border: 1px dashed black;
+   border-radius: 50%;
+   display: block;
+   position: absolute;
+   left: 50%;
+   margin-left: -18px;
+   bottom: 10%;
+   margin-bottom: -21px;
+   background: white;
  }
 
   /* SECTION 1 */
   .section__title {
      color: black;
      font-family: 'Open Sans', sans-serif;
-     margin-top: 100px;
   }
   .section__wrapper {
      margin-top: 50px;
@@ -218,4 +258,32 @@ h1 {
    .native {
       width: 500px;
       border-radius: 20px;
+   }
+
+
+
+   /* Footer */
+   #footer{
+      background-color: black;
+      margin-top: 100px;
+      height: 100px;
+      color: white;
+   }
+   .footer-rights{
+      margin: 25px 0px 7px 0px;
+   }
+   .logo-two{
+      width: 175px;
+      margin-top: 26px;
+   }
+   .paragraph-phone{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 15px;
+      margin: 25px 0px 5px 0px;
+   }
+
+   .fa-chevron-up{
+      margin-top: 25px;
+      border: 2px solid white;
+      width: 100%;
    }
