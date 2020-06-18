@@ -52,6 +52,10 @@ h1 {
      width: 230px;
      margin-top: 15px;
   }
+  .header {
+     background: rgba(0, 0, 0, 0.1);
+     height: 100px;
+  }
   .menu {
     margin: 35px 0px;
   }
@@ -146,7 +150,7 @@ h1 {
       color: black;
       font-family: 'Open Sans', sans-serif;
       font-weight: normal;
-      font-size: 15px;
+      font-size: 16px;
       text-align: center;
       font-weight: 900;
       border: 1px dashed black;
@@ -259,8 +263,11 @@ h1 {
       width: 500px;
       border-radius: 20px;
    }
-
-
+ /* SECTION 4 */
+   #fourth__section {
+      background: url(../img/background.png) no-repeat fixed center top / cover;
+      height: 150px;
+   }
 
    /* Footer */
    #footer{
