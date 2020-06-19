@@ -373,7 +373,7 @@ h1 {
    margin-left: 125px;
 }
 .arrow__down {
-   font-size: 20px;
+   font-size: 25px;
     left: 50%;
     position: absolute;
     margin-left: -23px;
@@ -381,4 +381,8 @@ h1 {
     border: 1px solid white;
     border-radius: 860px;
     padding: 0px 12px;
+}
+.title__wrapper {
+   border: 2px solid red;
+   padding-top: 10px;
 }
