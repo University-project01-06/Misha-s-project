@@ -270,6 +270,23 @@ h1 {
       height: 150px;
    }
    /* SECTION 5 */
+   .section__requirements {
+      color: black;
+      font-size: 19px;
+      font-weight: normal;
+      margin-top: 30px;
+      text-align: center;
+      text-transform: uppercase;
+   }
+   .section__requirements__text {
+      color: black;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 17px;
+      font-weight: 100;
+      margin-top: 40px;
+      text-align: center;
+   }
+   /* SECTION 6 */
    #last__section {
       background: url(../img/man.jpg) no-repeat center top / cover;
       height: 1000px;
@@ -363,15 +380,6 @@ h1 {
    font-size: 50px;
    font-family: 'Open Sans', sans-serif;
 }
-.exercises__title:after {
-   content: '';
-   display: block;
-   background: #fff;
-   width: 100px;
-   height: 3px;
-   margin-top: 10px;
-   margin-left: 215px;
-}
 .arrow__down {
    font-size: 25px;
     left: 50%;
@@ -385,21 +393,45 @@ h1 {
 .title__wrapper {
    padding-top: 10px;
 }
+.title__wrapper:after {
+   content: '';
+   display: block;
+   background: black;
+   width: 30%;
+   height: 3px;
+   margin-top: 10px;
+   margin-left: 190px;
+}
+.title__wrapper__line:after {
+   content: '';
+   display: block;
+   background: black;
+   width: 30%;
+   height: 3px;
+   margin-top: 10px;
+   margin-left: 270px;
+}
 .exercises__table {
-   height: 250px;
+   height: 350px;
    margin-top: 50px;
-   border: 3px dashed black;
-   border-radius: 20px;
-   text-align: left;
    padding-top: 15px;
-   
+}
+.exercises__list {
+   margin-bottom: 30px;
 }
 .exercises__paragraph {
-   color: black;
-   font-size: 16px;
-   font-family: 'Montserrat', sans-serif;
+   font-size: 19px;
 }
 #exercises__section {
    background: url(../img/city.png) no-repeat fixed center top / cover;
    height: 150px;
+}
+.price {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   margin-top: 50px;
+}
+.price__sign {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 30px;
 }
