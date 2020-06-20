@@ -270,6 +270,21 @@ h1 {
       height: 150px;
    }
    /* SECTION 5 */
+   .requirements__wrapper {
+      margin: 90px 0px;
+   }
+   .fa-graduation-cap {
+      font-size: 50px;
+      margin-left: 100px;
+   }
+   .fa-user-clock {
+      font-size: 50px;
+      margin-left: 100px;
+   }
+   .fa-laptop-house {
+      font-size: 50px;
+      margin-left: 100px;
+   }
    .section__requirements {
       color: black;
       font-size: 19px;
@@ -400,7 +415,7 @@ h1 {
    width: 30%;
    height: 3px;
    margin-top: 10px;
-   margin-left: 190px;
+   margin-left: 220px;
 }
 .title__wrapper__line:after {
    content: '';
@@ -409,12 +424,15 @@ h1 {
    width: 30%;
    height: 3px;
    margin-top: 10px;
-   margin-left: 270px;
+   margin-left: 300px;
 }
 .exercises__table {
-   height: 350px;
+   height: 370px;
    margin-top: 50px;
    padding-top: 15px;
+   background-color: #f4f4f4;
+   border: 1px solid  #f4f4f4;
+   border-radius: 20px;
 }
 .exercises__list {
    margin-bottom: 30px;
@@ -429,7 +447,7 @@ h1 {
 .price {
    font-family: 'Montserrat', sans-serif;
    font-size: 20px;
-   margin-top: 50px;
+   margin-top: 30px;
 }
 .price__sign {
    font-family: 'Montserrat', sans-serif;
