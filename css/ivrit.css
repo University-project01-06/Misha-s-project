@@ -360,7 +360,7 @@ h1 {
 
 .exercises__title {
    margin-top: 100px;
-   font-size: 60px;
+   font-size: 50px;
    font-family: 'Open Sans', sans-serif;
 }
 .exercises__title:after {
@@ -370,7 +370,7 @@ h1 {
    width: 100px;
    height: 3px;
    margin-top: 10px;
-   margin-left: 125px;
+   margin-left: 215px;
 }
 .arrow__down {
    font-size: 25px;
@@ -383,6 +383,23 @@ h1 {
     padding: 0px 12px;
 }
 .title__wrapper {
-   border: 2px solid red;
    padding-top: 10px;
+}
+.exercises__table {
+   height: 250px;
+   margin-top: 50px;
+   border: 3px dashed black;
+   border-radius: 20px;
+   text-align: left;
+   padding-top: 15px;
+   
+}
+.exercises__paragraph {
+   color: black;
+   font-size: 16px;
+   font-family: 'Montserrat', sans-serif;
+}
+#exercises__section {
+   background: url(../img/city.png) no-repeat fixed center top / cover;
+   height: 150px;
 }
