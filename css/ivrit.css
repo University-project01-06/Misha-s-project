@@ -400,7 +400,7 @@ h1 {
     left: 50%;
     position: absolute;
     margin-left: -23px;
-    top: 50%;
+    top: 40%;
     border: 1px solid white;
     border-radius: 860px;
     padding: 0px 12px;
@@ -452,4 +452,155 @@ h1 {
 .price__sign {
    font-family: 'Montserrat', sans-serif;
    font-size: 30px;
+}
+/* Контакты */
+#contacts {
+   background: #f0f0f0;
+}
+.white__block {
+   width: 1000px;
+   background-color: #fff;
+   margin-top: -170px;
+   margin-bottom: 150px;
+   box-shadow: 0px 5px 15px black;
+}
+.white__paragraph {
+   padding-top: 55px;
+   font-family: 'Open Sans', sans-serif;
+}
+.line:after {
+   content: '';
+   display: block;
+   background: black;
+   width: 20%;
+   height: 3px;
+   margin-top: 10px;
+   margin-left: 390px;
+}
+.contact__list {
+   padding: 130px 113px;
+}
+.contacts__distance {
+   margin-bottom: 80px;
+}
+.at {
+   width: 30px;
+}
+.mobile {
+   float: left;
+   width: 40px;
+   margin-top: 10px;
+}
+.contact__info {
+   margin-left: 70px;
+   text-align: left;
+}
+.contacts__title {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.contact__paragraph {
+  width: 240px;
+  height: 38px;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 100;
+}
+.contact__form {
+   width: 389px;
+   height: 500px;
+   background: url(../img/desert.jpg) no-repeat fixed center top / cover;
+   border-radius: 10px;
+   margin-top: 59px;
+   
+}
+.contacts__wrapper {
+   display: flex;
+}
+.form__title {
+  width: 329px;
+  height: 104px;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0 auto;
+  padding-top: 45px;
+  line-height: 26px;
+}
+.form__title span {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1.4px;
+  line-height: 26px;
+  font-size: 16px;
+  color: #000000;
+}
+.form_second {
+  margin-top: 90px;
+}
+.input__second {
+  width: 292px;
+  height: 53px;
+  border-radius: 3px;
+  border: 1px solid #ffffff;
+  display: block;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  padding: 29px 36px;
+  margin-bottom: 9px;
+  margin-left: 50px;
+}
+.button__second {
+  width: 292px;
+  height: 53px;
+  border-radius: 4px;
+  border: 1px solid red;
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 35px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  background-color: red;
+  margin-top: 11px;
+  margin-bottom: 75px;
+}
+.button__second:hover {
+   background: violet;
+   color: black;
+   border: 1px solid black;
+   transition: color 0.5s linear;
+}
+.developers {
+   text-transform: uppercase;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 35px;
+}
+.developers:after {
+   content: '';
+   display: block;
+   background: black;
+   width: 30%;
+   height: 3px;
+   margin-top: 7px;
+   margin-left: 70px;
+}
+.developer__wrapper {
+   margin-top: 50px;
+}
+.developer {
+   width: 400px;
+   border-radius: 60px;
 }
