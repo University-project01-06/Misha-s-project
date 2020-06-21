@@ -588,19 +588,32 @@ h1 {
    font-family: 'Montserrat', sans-serif;
    font-size: 35px;
 }
-.developers:after {
-   content: '';
-   display: block;
-   background: black;
-   width: 30%;
-   height: 3px;
-   margin-top: 7px;
-   margin-left: 70px;
-}
 .developer__wrapper {
    margin-top: 50px;
 }
 .developer {
    width: 400px;
    border-radius: 60px;
+}
+.name {
+   color: black;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 24px;
+   font-weight: 800;
+   margin-top: 20px;
+}
+.name:after {
+   content: '';
+   display: block;
+   background: grey;
+   width: 30%;
+   height: 1px;
+   margin-top: 7px;
+   margin-left: 65px;
+}
+.section__title__developers {
+   color: black;
+   font-family: 'Open Sans', sans-serif;
+   text-align: center;
+   font-size: 30px;
 }
