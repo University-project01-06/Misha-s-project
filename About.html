@@ -59,10 +59,10 @@
                     </div>
                 </div>
             </div>
-            <span class="arrow__down"><i class="fas fa-chevron-down"></i></span>
+            <a href="#secondsection" class="arrow__down"><i class="fas fa-chevron-down"></i></a>
         </div>
     </header>
-    <section>
+    <section id="secondsection">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 offset-lg-1">
@@ -89,9 +89,37 @@
                     <div class="developers">Жду Вас на записи!</div>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-12 text-lg-center">
+                <span class="arrow-alt"><i class="fas fa-arrow-alt-circle-down fa-3x"></i></span>
+                </div>
+            </div>
         </div>
     </section>
-    
+    <section id="last__section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-lg-center">
+                    <h2 class="section__title">Запишитесь<br> на пробное занятие</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 text-lg-center">
+                    <h4 class="last__section__title">Мы свяжемся с Вами <br> через несколько минут</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 offset-lg-4">
+                    <form class="form" id="ajax_form" method="POST">
+                        <input type="text" placeholder="Имя" class="input" required>
+                        <input type="email" placeholder="E-mail" class="input" required>
+                        <input type="tel" placeholder="Телефон" class="input" required>
+                        <button type="button" class="button" id="button">Записаться</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer id="footer">
         <div class="container">
             <div class="row">
@@ -113,7 +141,7 @@
                     <i class="fab fa-telegram fa-2x"></i>
                 </div>
                 <div class = "col-lg-1 text-lg-center offset-lg-">
-                <span class="up-angel"><i class="fas fa-chevron-up fa-3x"></i></span>
+                    <a href="#exercises__first" class="up-angel"><i class="fas fa-chevron-up fa-3x"></i></a>
                 </div>
             </div>
         </div>
@@ -123,5 +151,6 @@
     <script src="js/jquery-3.5.0.min.js"></script>
     <script src="js/jquery.arcticmodal-0.3.min.js"></script>
     <script src="js/slick.min.js"></script>
+    <script src="js/ivrit.js"></script>
 </body>
 </html>

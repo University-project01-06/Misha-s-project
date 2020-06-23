@@ -72,14 +72,11 @@ h1 {
    border-radius: 3px;
  }
  .menu__item a:hover {
-   font-size: 20px;
+   font-size: 17px;
     color: rgb(187, 30, 25);
     margin-top: 10px;
     text-decoration: none;
-    transition: color 0.5s linear;
-    border: 0.5px solid white;
-    border-radius: 20px;
-    padding: 5px 10px;
+    transition: color 1s linear;
  }
  .phone {
     border: 2px solid red;
@@ -112,6 +109,10 @@ h1 {
  .fa-chevron-down {
     color: white;
  }
+ .fa-arrow-alt-circle-down{
+    color: #96c9e6;
+ }
+ 
  .main__title {
    margin-top: 200px;
    font-size: 60px;
@@ -150,12 +151,12 @@ h1 {
       color: black;
       font-family: 'Open Sans', sans-serif;
       font-weight: normal;
-      font-size: 16px;
+      font-size: 15px;
       text-align: center;
       font-weight: 900;
       border: 1px dashed black;
       height: 152px;
-      padding-top: 37px;
+      padding-top: 35px;
  }
  .second-section-rectangle__span{
    width: 30px;
@@ -379,6 +380,9 @@ h1 {
       border: 2px solid white;
       width: 100%;
    }
+   .up-angel{
+      color: white;
+   }
 
    /* Занятия */
    #exercises__first {
@@ -591,7 +595,8 @@ h1 {
    font-family: 'Montserrat', sans-serif;
    font-size: 30px;
    text-align: center;
-   margin-bottom: 70px;
+   margin-bottom: 50px;
+   margin-top: 50px;
 }
 .developer__wrapper {
    margin-top: 50px;
@@ -620,7 +625,6 @@ h1 {
 .section__title__developers {
    color: black;
    font-family: 'Open Sans', sans-serif;
-   text-align: right;
    font-size: 30px;
    margin-top: 20px;
 }
@@ -664,7 +668,7 @@ h1 {
    content: '';
    display: block;
    background: grey;
-   width: 30%;
+   width: 44%;
    height: 1px;
    margin-top: 7px;
    margin-left: 150px;
@@ -679,3 +683,4 @@ h1 {
    font-size: 17px;
    text-align: center;
 }
+
