@@ -591,6 +591,7 @@ h1 {
    font-family: 'Montserrat', sans-serif;
    font-size: 30px;
    text-align: center;
+   margin-bottom: 70px;
 }
 .developer__wrapper {
    margin-top: 50px;
@@ -644,4 +645,37 @@ h1 {
 .instagram:hover {
    text-decoration: underline;
    transition: color 0.5s linear;
+}
+/* ABOUT */
+.photo {
+   width: 350px;
+   border-radius: 20px;
+   margin-top: 100px;
+}
+.about__title {
+   text-align: center;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 500;
+   color: black;
+   font-size: 25px;
+   letter-spacing: normal;
+}
+.about__title:after {
+   content: '';
+   display: block;
+   background: grey;
+   width: 30%;
+   height: 1px;
+   margin-top: 7px;
+   margin-left: 150px;
+}
+.about__description {
+   margin: 30px 0px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 17px;
+}
+.about__desctiption__span {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 17px;
+   text-align: center;
 }
