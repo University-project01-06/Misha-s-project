@@ -50,3 +50,10 @@ $(function () {
 	    });
     });
 })
+$(function(){
+    $('.name').slick({
+      arrows:true,
+      dots:true,
+      
+    });
+});
