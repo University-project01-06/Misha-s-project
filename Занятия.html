@@ -264,7 +264,27 @@
             </div>
         </div>
     </footer>
-
+    <div class="popup-fade">
+        <div class="popup popup_second">
+            <a class="popup-close" href="#"><i class="fa fa-window-close fa-2x"></i></a>
+            <div class="row">
+                <div class="col-xl-8 offset-xl-2">
+                    <p class="modal-heading"> <b>Введите Ваши контакты в форму </b><br>Мы c Вами свяжемся!</p>
+                    <div class="modal-line"></div>
+                    <form id="form" class="form"action="https://formspree.io/yaroslavcybuh260901@gmail.com"
+                    method="POST">  
+                        <label class="label-name" for="name">Имя</label> 
+                        <input id="name"class="form__input" type="text" name="name" placeholder="Ваше имя" required >
+                        <label class="label-email" for="email">E-mail</label> 
+                        <input id="email" class="form__input" type="email" name="email" placeholder="Ваш email" required >  
+                        <label class="label-message" for="message">Номер телефона</label> 
+                        <input id="email" class="form__input" type="tel" name="email" placeholder="Ваш номер телефона" required >                  
+                        <button class="form__button" type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>		
+    </div>
 
 
     <script src="https://kit.fontawesome.com/83e979f233.js" crossorigin="anonymous"></script>

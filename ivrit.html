@@ -10,8 +10,8 @@
     crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:900|Open+Sans&display=swap&subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" href="css/simple.css">
     <link rel="stylesheet" href="css/ivrit.css">
     <link rel="shortcut icon" href="img/sign.jpg">
@@ -326,11 +326,26 @@
             </div>
         </div>
     </footer>
-    <div style="display: none;">
-        <div class="box-modal" id="exampleModal">
-            <div class="box-modal_close arcticmodal-close">закрыть</div>
-            Пример модального окна
-        </div>
+    <div class="popup-fade">
+        <div class="popup">
+            <a class="popup-close" href="#"><i class="fa fa-window-close fa-2x"></i></a>
+            <div class="row">
+                <div class="col-xl-8 offset-xl-2">
+                    <p class="modal-heading"> <b>Мы с Вами свяжемся!</b></p>
+                    <div class="modal-line"></div>
+                    <form id="form" class="form"action="https://formspree.io/yaroslavcybuh260901@gmail.com"
+                    method="POST">  
+                        <label class="label-name" for="name">Имя</label> 
+                        <input id="name"class="form__input" type="text" name="name" placeholder="Ваше имя" required >
+                        <label class="label-email" for="email">E-mail</label> 
+                        <input id="email" class="form__input" type="email" name="email" placeholder="Ваш email" required >  
+                        <label class="label-message" for="message">Сообщение</label> 
+                        <textarea id="message" class="form__input form__input_area" name="message" placeholder="Введите сообщение" ></textarea>                  
+                        <button class="form__button" type="submit">Отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>		
     </div>
     <script src="https://kit.fontawesome.com/83e979f233.js" crossorigin="anonymous"></script>
     <script src="js/jquery-3.5.0.min.js"></script>
