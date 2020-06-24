@@ -18,3 +18,35 @@ $(function(){
         $("body,html").animate({scrollTop: destination }, 800);
     });
 });
+$(function () {
+	$(window).scroll(function() {
+	    $('#posibilities .native__right').each(function(){
+	        var imagePos = $(this).offset().top;
+
+	        var topOfWindow = $(window).scrollTop();
+	        if (imagePos < topOfWindow+650) {
+	            $(this).addClass("fadeInRight");
+	        }
+	    });
+    });
+    $(window).scroll(function() {
+	    $('#posibilities .native__left').each(function(){
+	        var imagePos = $(this).offset().top;
+
+	        var topOfWindow = $(window).scrollTop();
+	        if (imagePos < topOfWindow+650) {
+	            $(this).addClass("fadeInLeft");
+	        }
+	    });
+    });
+    $(window).scroll(function() {
+	    $('.developer').each(function(){
+	        var imagePos = $(this).offset().top;
+
+	        var topOfWindow = $(window).scrollTop();
+	        if (imagePos < topOfWindow+650) {
+	            $(this).addClass("fadeInDown");
+	        }
+	    });
+    });
+})

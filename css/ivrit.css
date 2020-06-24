@@ -261,9 +261,15 @@ h1 {
       color: black;
       font-weight: normal;
    }
-   .native {
+   .native__left {
       width: 500px;
       border-radius: 20px;
+      opacity: 0;
+   }
+   .native__right {
+      width: 500px;
+      border-radius: 20px;
+      opacity: 0;
    }
    /* SECTION 4 */
    #fourth__section {
@@ -605,6 +611,7 @@ h1 {
    width: 400px;
    height: 400px;
    border-radius: 60px;
+   opacity: 0;
 }
 .name {
    color: black;
