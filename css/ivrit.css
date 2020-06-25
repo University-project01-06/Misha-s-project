@@ -710,6 +710,7 @@ h1 {
    padding: 0px 50px 0px 50px;
    margin-top: 100px;
    overflow: hidden;
+   box-shadow: 0 0 35px rgba(14, 14, 14, 0.3);
 }
 .slick-prev{
    left: 0;
@@ -848,4 +849,10 @@ label{
 .fa-window-close:hover{
    color: red;
    background: transparent;
+}
+.reviews-image {
+   margin-top: 30px;
+}
+.reviews-block {
+   margin-top: 10px;
 }
