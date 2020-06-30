@@ -517,6 +517,24 @@ h1 {
    font-family: 'Montserrat', sans-serif;
    font-size: 30px;
 }
+/* Responsive*/
+@media screen and (max-width: 1200px) {
+   
+}
+@media screen and (max-width: 992px) {
+   .title__wrapper:after {
+      display: none;
+   }
+   .title__wrapper__line:after {
+      display: none;
+   }
+}
+@media screen and (max-width: 768px) {
+   
+}
+@media screen and (max-width: 576px) {
+   
+}
 /* Контакты */
 #contacts {
    background: #f0f0f0;
