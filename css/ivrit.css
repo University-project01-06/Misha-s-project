@@ -394,6 +394,55 @@ h1 {
    .up-angel{
       color: white;
    }
+   /* Responsive*/
+@media screen and (max-width: 1200px) {
+   
+}
+@media screen and (max-width: 992px) {
+   .second__wrapper {
+      text-align: center;
+   }
+   .fa-graduation-cap {
+   margin-left: 80px;
+  }
+  .fa-laptop-house {
+   margin-left: 100px;
+  }
+  .fa-user-clock {
+   margin-left: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+   .second__wrapper {
+      text-align: center;
+   }
+   .fa-graduation-cap {
+      margin-left: 50%;
+      position: relative;
+      left: -25px;
+     }
+     .fa-laptop-house {
+      margin-top: 50px;
+      margin-left: 50%;
+      position: relative;
+      left: -20px;
+     }
+     .fa-user-clock {
+      margin-top: 50px;
+      margin-left: 50%;
+      position: relative;
+      left: -20px;
+     }
+     .footer-rights {
+        font-size: 13px;
+     }
+     .footer-rights_float {
+      font-size: 12px;
+     }
+}
+@media screen and (max-width: 576px) {
+   
+}
 
    /* Занятия */
    #exercises__first {
