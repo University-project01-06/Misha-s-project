@@ -533,7 +533,9 @@ h1 {
    
 }
 @media screen and (max-width: 576px) {
-   
+   .btn {
+      width: 100%;
+   }
 }
 /* Контакты */
 #contacts {
@@ -728,6 +730,48 @@ h1 {
    text-decoration: underline;
    transition: color 0.5s linear;
 }
+/* Responsive*/
+@media screen and (max-width: 1200px) {
+   .white__block {
+      margin-left: -120px;
+   }
+}
+@media screen and (max-width: 992px) {
+   .white__block {
+      margin-left: -140px;
+   }
+   .name:after {
+      margin-left: 35%;
+      margin-bottom: 50px;
+   }
+}
+@media screen and (max-width: 768px) {
+   
+}
+@media screen and (max-width: 576px) {
+   .name {
+      margin-left: 25%;
+   }
+   .name:after {
+      display: none;
+   }
+   .section__title__developers {
+      margin-left: 20%;
+   }
+   .fa-instagram-square {
+      margin-left: 50%;
+      margin-top: 50px;
+   }
+   .fa-envelope {
+      margin-left: 50%;
+   }
+   .fa-telegram {
+      margin-left: 50%;
+   }
+   .instagram {
+      margin-left: 35%;
+   }
+}
 /* ABOUT */
 .photo {
    width: 350px;
@@ -761,7 +805,24 @@ h1 {
    font-size: 17px;
    text-align: center;
 }
-
+/* Responsive*/
+@media screen and (max-width: 1200px) {
+   
+}
+@media screen and (max-width: 992px) {
+   .about__title {
+      margin-top: 50px;
+   }
+   .about__title:after {
+      margin-left: 28%;
+   }
+}
+@media screen and (max-width: 768px) {
+   
+}
+@media screen and (max-width: 576px) {
+   
+}
 
  /* Styles slider */
 .slick-list.draggable{
