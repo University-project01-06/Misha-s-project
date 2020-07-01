@@ -441,6 +441,38 @@ h1 {
      }
 }
 @media screen and (max-width: 576px) {
+   .heading-second-section {
+      margin-left: 30%;
+   }
+   .section__wrapper {
+      width: 80%;
+      margin-left: 10%;
+   }
+   .fa-hourglass-half {
+      margin-left: 50%;
+      position: relative;
+      left: -20px;
+   }
+   .time {
+      margin-left: 50%;
+      position: relative;
+      left: -45px;
+   }
+   .fa-trophy {
+      margin-left: 50%;
+      position: relative;
+      left: -20px;
+   }
+   .fa-chart-line {
+      margin-left: 50%;
+      position: relative;
+      left: -20px;
+   }
+   .fa-users {
+      margin-left: 50%;
+      position: relative;
+      left: -20px;
+   }
    
 }
 
@@ -519,7 +551,9 @@ h1 {
 }
 /* Responsive*/
 @media screen and (max-width: 1200px) {
-   
+   .exercises__table {
+      height: 500px;
+   }
 }
 @media screen and (max-width: 992px) {
    .title__wrapper:after {
@@ -821,7 +855,11 @@ h1 {
    
 }
 @media screen and (max-width: 576px) {
-   
+   .fa-arrow-alt-circle-down {
+      margin-left: 50%;
+      position: relative;
+      left: -20px;
+   }
 }
 
  /* Styles slider */
