@@ -403,14 +403,15 @@ h1 {
       text-align: center;
    }
    .fa-graduation-cap {
-   margin-left: 80px;
+   margin-left: 50px;
   }
   .fa-laptop-house {
-   margin-left: 100px;
+   margin-left: 50px;
   }
   .fa-user-clock {
    margin-left: 50px;
   }
+
 }
 @media screen and (max-width: 768px) {
    .second__wrapper {
@@ -473,7 +474,15 @@ h1 {
       position: relative;
       left: -20px;
    }
-   
+   .fa-chevron-up {
+      display: none;
+   }
+   .paragraph-phone {
+      display: none;
+   }
+   .fa-telegram {
+      display: none;
+   }
 }
 
    /* Занятия */
