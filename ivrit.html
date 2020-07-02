@@ -333,15 +333,14 @@
                 <div class="col-xl-8 offset-xl-2">
                     <p class="modal-heading"> <b>Мы с Вами свяжемся!</b></p>
                     <div class="modal-line"></div>
-                    <form id="form" class="form"action="https://formspree.io/yaroslavcybuh260901@gmail.com"
-                    method="POST">  
+                    <form id="form" class="form">  
                         <label class="label-name" for="name">Имя</label> 
                         <input id="name"class="form__input" type="text" name="name" placeholder="Ваше имя" required >
                         <label class="label-email" for="email">E-mail</label> 
                         <input id="email" class="form__input" type="email" name="email" placeholder="Ваш email" required >  
                         <label class="label-message" for="message">Сообщение</label> 
                         <textarea id="message" class="form__input form__input_area" name="message" placeholder="Введите сообщение" ></textarea>                  
-                        <button class="form__button" type="submit">Отправить</button>
+                        <button id="button-form" class="form__button" type="submit">Отправить</button>
                     </form>
                 </div>
             </div>
@@ -352,5 +351,6 @@
     <script src="js/jquery.arcticmodal-0.3.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/ivrit.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
