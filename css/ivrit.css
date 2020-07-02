@@ -734,7 +734,7 @@ h1 {
    width: 30%;
    height: 1px;
    margin-top: 7px;
-   margin-left: 65px;
+   margin-left: 90px;
 }
 .section__title__developers {
    color: black;
@@ -777,6 +777,12 @@ h1 {
    .name:after {
       margin-left: 35%;
       margin-bottom: 50px;
+   }
+   .reviews-block {
+      padding-top: 20px;
+   }
+   .reviews-image {
+      padding-top: 50px;
    }
 }
 @media screen and (max-width: 768px) {
