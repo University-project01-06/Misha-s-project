@@ -1037,9 +1037,6 @@ h1 {
       margin-left: 35%;
       margin-bottom: 50px;
    }
-   .reviews-block {
-      padding-top: 20px;
-   }
    .reviews-image {
       padding-top: 50px;
    }
@@ -1170,9 +1167,14 @@ h1 {
    font-size: 17px;
    text-align: center;
 }
+.check{
+   display: none;
+}
 /* Responsive*/
 @media screen and (max-width: 1200px) {
-   
+   .check{
+    display: none;  
+   }
 }
 @media screen and (max-width: 992px) {
    .about__title {
@@ -1207,7 +1209,6 @@ h1 {
    padding: 0px 50px 0px 50px;
    margin-top: 100px;
    overflow: hidden;
-   box-shadow: 0 0 35px rgba(14, 14, 14, 0.3);
 }
 .slick-prev{
    left: 0;
