@@ -72,7 +72,7 @@ h1 {
    border-radius: 3px;
  }
  .menu__item a:hover {
-   font-size: 17px;
+    font-size: 17px;
     color: rgb(187, 30, 25);
     margin-top: 10px;
     text-decoration: none;
@@ -117,7 +117,6 @@ h1 {
     border-radius: 50%;
     transition: all 0.5s ease;
  }
- 
  .main__title {
    margin-top: 200px;
    font-size: 60px;
@@ -152,16 +151,16 @@ h1 {
     color: black;
  }
  .second-section-rectangle__paragraph{
-      margin-top: 75px;
-      color: black;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: normal;
-      font-size: 15px;
-      text-align: center;
-      font-weight: 900;
-      border: 1px dashed black;
-      height: 152px;
-      padding-top: 35px;
+   margin-top: 75px;
+   color: black;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: normal;
+   font-size: 18px;
+   text-align: center;
+   font-weight: 900;
+   border: 1px dashed black;
+   height: 152px;
+   padding-top: 35px;
  }
  .second-section-rectangle__span{
    width: 30px;
@@ -399,7 +398,15 @@ h1 {
    }
    /* Responsive*/
 @media screen and (max-width: 1200px) {
-   
+   .reviews-info__list {
+      margin-left: -130px;
+   }
+   .reviews-info__paragraph {
+      margin-left: 120px;
+   }
+   .reviews-text {
+      text-align: left;
+   }
 }
 @media screen and (max-width: 992px) {
    .second__wrapper {
@@ -414,7 +421,6 @@ h1 {
   .fa-user-clock {
    margin-left: 50px;
   }
-
 }
 @media screen and (max-width: 768px) {
    .second__wrapper {
@@ -443,8 +449,6 @@ h1 {
      .footer-rights_float {
       font-size: 12px;
      }
-
-
      #menuToggle
 {
   display: block;
@@ -457,7 +461,6 @@ h1 {
   -webkit-user-select: none;
   user-select: none;
 }
-
 #menuToggle a
 {
   text-decoration: none;
@@ -465,13 +468,10 @@ h1 {
   
   transition: color 0.3s ease;
 }
-
 #menuToggle a:hover
 {
   color: tomato;
 }
-
-
 #menuToggle input
 {
   display: block;
@@ -480,15 +480,11 @@ h1 {
   position: absolute;
   top: -7px;
   left: -5px;
-  
   cursor: pointer;
-  
   opacity: 0; 
   z-index: 2; 
-  
   -webkit-touch-callout: none;
 }
-
 #menuToggle span
 {
   display: block;
@@ -496,29 +492,22 @@ h1 {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  
   background: #cdcdcd;
   border-radius: 3px;
-  
   z-index: 1;
-  
   transform-origin: 4px 0px;
-  
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
 }
-
 #menuToggle span:first-child
 {
   transform-origin: 0% 0%;
 }
-
 #menuToggle span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
 }
-
 #menuToggle input:checked ~ span
 {
   opacity: 1;
@@ -543,17 +532,13 @@ h1 {
   padding-top: 97px;
   padding-left: 100px;
   padding-bottom: 26px;
-  
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
- 
   transform-origin: 0% 0%;
   transform: translate(200%, 0);
-  
   transition: transform 1.0s cubic-bezier(0.77,0.2,0.05,1.0);
 }
-
 #menu li
 {
   padding: 10px 0;
@@ -625,7 +610,6 @@ h1 {
       justify-content: center;
       height: 60vh;
    }
-
 .exercises__title {
    margin-top: 100px;
    font-size: 50px;
@@ -711,27 +695,20 @@ h1 {
   position: relative;
   top: 50px;
   left: 5px;
-  
   z-index: 1;
-  
   -webkit-user-select: none;
   user-select: none;
 }
-
 #menuToggle a
 {
   text-decoration: none;
   color: #232323;
-  
   transition: color 0.3s ease;
 }
-
 #menuToggle a:hover
 {
   color: tomato;
 }
-
-
 #menuToggle input
 {
   display: block;
@@ -740,12 +717,9 @@ h1 {
   position: absolute;
   top: -7px;
   left: -5px;
-  
   cursor: pointer;
-  
   opacity: 0;
   z-index: 2; 
-  
   -webkit-touch-callout: none;
 }
 #menuToggle span
@@ -755,24 +729,18 @@ h1 {
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  
   background: #cdcdcd;
   border-radius: 3px;
-  
   z-index: 1;
-  
   transform-origin: 4px 0px;
-  
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
 }
-
 #menuToggle span:first-child
 {
   transform-origin: 0% 0%;
 }
-
 #menuToggle span:nth-last-child(2)
 {
   transform-origin: 0% 100%;
@@ -788,7 +756,6 @@ h1 {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
-
 #menuToggle input:checked ~ span:nth-last-child(2)
 {
   transform: rotate(-45deg) translate(0, -1px);
@@ -802,17 +769,13 @@ h1 {
   padding-top: 97px;
   padding-left: 100px;
   padding-bottom: 26px;
-  
   background: #ededed;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-
   transform-origin: 0% 0%;
   transform: translate(200%, 0);
-  
   transition: transform 1.0s cubic-bezier(0.77,0.2,0.05,1.0);
 }
-
 #menu li
 {
   padding: 10px 0;
@@ -894,7 +857,6 @@ h1 {
    background: url(../img/desert.jpg) no-repeat fixed center top / cover;
    border-radius: 10px;
    margin-top: 59px;
-   
 }
 .contacts__wrapper {
    display: flex;
@@ -1194,7 +1156,6 @@ h1 {
       left: -20px;
    }
 }
-
  /* Styles slider */
 .slick-list.draggable{
    overflow:hidden;
@@ -1247,9 +1208,6 @@ h1 {
 button:focus {
 outline: 0px dotted;
 }
-
-
-
 /* Modal window */
 .popup-fade {
 	display: none;
