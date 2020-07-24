@@ -32,6 +32,36 @@ $(function(){
     });
 });
 $(function () {
+    $(window).scroll(function() {
+	    $('.heading-second-section').each(function(){
+	        var imagePos = $(this).offset().top;
+
+	        var topOfWindow = $(window).scrollTop();
+	        if (imagePos < topOfWindow+650) {
+	            $(this).addClass("flipInX");
+	        }
+	    });
+    });
+    $(window).scroll(function() {
+	    $('.title__wrapper').each(function(){
+	        var imagePos = $(this).offset().top;
+
+	        var topOfWindow = $(window).scrollTop();
+	        if (imagePos < topOfWindow+650) {
+	            $(this).addClass("bounceIn");
+	        }
+	    });
+    });
+    $(window).scroll(function() {
+	    $('.title__wrapper__line').each(function(){
+	        var imagePos = $(this).offset().top;
+
+	        var topOfWindow = $(window).scrollTop();
+	        if (imagePos < topOfWindow+650) {
+	            $(this).addClass("bounceIn");
+	        }
+	    });
+    });
 	$(window).scroll(function() {
 	    $('#posibilities .native__right').each(function(){
 	        var imagePos = $(this).offset().top;
