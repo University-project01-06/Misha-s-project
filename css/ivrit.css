@@ -1160,11 +1160,10 @@ h1 {
    }
    .reviews-info__text {
       margin-left: 170px;
+      display: none;
    }
-   .reviews-text {
-      margin-left: 60px;
-      width: 80%;
-      text-align: center;
+   .photo{
+      width: 100%;
    }
 }
  /* Styles slider */

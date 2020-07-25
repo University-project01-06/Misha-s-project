@@ -24,6 +24,7 @@ $(function(){
         infinite:true,
         autoplay:false,
         draggable:false,
+        swipe:true,
     });
     $(".arrow-alt").click(function () {
         elementClick = $(this).attr("href");
