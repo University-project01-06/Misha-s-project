@@ -1155,6 +1155,17 @@ h1 {
       position: relative;
       left: -20px;
    }
+   .reviews-info__paragraph {
+      margin-left: 160px;
+   }
+   .reviews-info__text {
+      margin-left: 170px;
+   }
+   .reviews-text {
+      margin-left: 60px;
+      width: 80%;
+      text-align: center;
+   }
 }
  /* Styles slider */
 .slick-list.draggable{
