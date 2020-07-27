@@ -602,7 +602,7 @@ h1 {
    }
    .main__title,.main__title span{
       font-size: 40px;
-      margin-top: 31% ;
+      margin-top: 30% ;
    }
    .btn{
       margin: 50px 0px 0px 0px;
@@ -665,6 +665,18 @@ h1 {
 .second__wrapper{
    margin-top: 90px;
 }
+.fa-window-close{
+   right: 176px;
+   position: absolute;
+}
+#first{
+   height: 107vh;
+}
+.wrapper{
+   height: 107vh;
+}
+.down-angel{
+   bottom: 25px;
 }
 
    /* Занятия */
