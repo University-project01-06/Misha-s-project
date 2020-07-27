@@ -122,4 +122,12 @@ $(function () {
         });
     });
 })
+let popup = document.querySelector('.menu');
+let open = document.querySelector('.check');
+menu.style.display = 'none'
+open.addEventListener("click",function() {
+    if(popup.style.display == 'none')  popup.style.display = 'block';
+    else popup.style.display = 'none'
+
+  });
 
