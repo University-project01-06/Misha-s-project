@@ -600,6 +600,62 @@ h1 {
       position: relative;
       top: -80px;
    }
+   .main__title,.main__title span{
+      font-size: 40px;
+      margin-top: 31% ;
+   }
+   .btn{
+      margin: 50px 0px 0px 0px;
+   }
+   .heading-second-section{
+      margin-left: 0px;
+      text-align: center;
+   }
+   .second-section-rectangle__paragraph{
+      font-size: 15px;
+   }
+   .fa-trophy{
+      margin-left: 47%;
+   }
+   .time_two{
+      margin-left: 43%;
+   }
+   .time_three{
+      margin-left: 30%;
+   }
+   .time_fourth{
+      margin-left: 46%;
+   }
+   .fa-users{
+      margin-left: 46%;
+   }
+   .paragraph{
+      margin-top: 0;
+   }
+   .native__right{
+      width: 100%;
+   }
+   .native__left{
+      width: 100%;
+   }
+   .paragraph__second{
+      margin-top: 20%;
+   }
+   .requirements__wrapper {
+      margin: 50px 0px;
+  }
+  .section__requirements__text{
+     margin-top: 10%;
+  }
+  .logo-two {
+   width: 120px;
+  }
+  .footer-rights_float{
+     width: none;
+  }
+  .footer-rights{
+   width: none;
+}
 }
 
    /* Занятия */
