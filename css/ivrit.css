@@ -602,7 +602,7 @@ h1 {
    }
    .main__title,.main__title span{
       font-size: 40px;
-      margin-top: 30% ;
+      margin-top: 31% ;
    }
    .btn{
       margin: 50px 0px 0px 0px;
@@ -639,7 +639,7 @@ h1 {
       width: 100%;
    }
    .paragraph__second{
-      margin-top: 10%;
+      margin-top: 20%;
    }
    .requirements__wrapper {
       margin: 50px 0px;
@@ -656,27 +656,6 @@ h1 {
   .footer-rights{
    width: none;
 }
-.photo{
-   width: 100%;
-}
-#last__section{
-   height: 723px;
-}
-.second__wrapper{
-   margin-top: 90px;
-}
-.fa-window-close{
-   right: 176px;
-   position: absolute;
-}
-#first{
-   height: 107vh;
-}
-.wrapper{
-   height: 107vh;
-}
-.down-angel{
-   bottom: 25px;
 }
 
    /* Занятия */
@@ -1239,7 +1218,9 @@ h1 {
       margin-left: 170px;
       display: none;
    }
-   
+   .photo{
+      width: 100%;
+   }
 }
  /* Styles slider */
 .slick-list.draggable{
