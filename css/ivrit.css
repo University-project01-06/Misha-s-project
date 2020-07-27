@@ -639,7 +639,7 @@ h1 {
       width: 100%;
    }
    .paragraph__second{
-      margin-top: 20%;
+      margin-top: 10%;
    }
    .requirements__wrapper {
       margin: 50px 0px;
@@ -655,6 +655,15 @@ h1 {
   }
   .footer-rights{
    width: none;
+}
+.photo{
+   width: 100%;
+}
+#last__section{
+   height: 723px;
+}
+.second__wrapper{
+   margin-top: 90px;
 }
 }
 
@@ -1218,9 +1227,7 @@ h1 {
       margin-left: 170px;
       display: none;
    }
-   .photo{
-      width: 100%;
-   }
+   
 }
  /* Styles slider */
 .slick-list.draggable{
