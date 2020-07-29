@@ -555,6 +555,12 @@ h1 {
 }
 }
 @media screen and (max-width: 576px) {
+   #first {
+      height: 107vh;
+   }
+   .wrapper {
+      height: 107vh;
+   }
    .heading-second-section {
       margin-left: 30%;
    }
@@ -847,6 +853,7 @@ h1 {
 @media screen and (max-width: 576px) {
    .btn {
       width: 100%;
+      margin-bottom: 20%;
    }
 }
 /* Контакты */
@@ -1151,6 +1158,32 @@ h1 {
       margin-top: 10px;
       margin-left: 40%;
    }
+   .contacts__wrapper {
+      margin-left: -110px;
+   }
+   .contact__form {
+      width: 80%;
+      margin-left: 23%;
+   }
+   .developer {
+      width: 300px;
+      height: 300px;
+      margin-left: 1%;
+   }
+   .name {
+      width: 70%;
+      margin-left: 20%;
+   }
+   .section__title__developers {
+      text-align: center;
+      margin-left: 0%;
+   }
+   .instagram {
+      font-size: 16px;
+   }
+   .button__second {
+      font-size: 11px;
+   }
 }
 /* ABOUT */
 .photo {
@@ -1206,6 +1239,13 @@ h1 {
    
 }
 @media screen and (max-width: 576px) {
+
+   #exercises__first {
+      height: 80vh;
+   }
+   .arrow__down {
+      top: 50%;
+   }
    .fa-arrow-alt-circle-down {
       margin-left: 50%;
       position: relative;
