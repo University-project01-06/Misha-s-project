@@ -104,7 +104,6 @@ h1 {
     position: absolute;
     margin-left: -23px;
     bottom: 6%;
-    margin-bottom: -2px;
 }
  .fa-chevron-down {
     color: white;
@@ -423,6 +422,10 @@ h1 {
   }
 }
 @media screen and (max-width: 768px) {
+   .popup {
+      width: 100%;
+      margin-left: -45%;
+   }
    .second__wrapper {
       text-align: center;
    }
@@ -555,6 +558,10 @@ h1 {
 }
 }
 @media screen and (max-width: 576px) {
+   .popup {
+      width: 100%;
+      margin-left: -45%;
+   }
    #first {
       height: 107vh;
    }
@@ -612,6 +619,7 @@ h1 {
    }
    .btn{
       margin: 50px 0px 0px 0px;
+      margin-top: 30%;
    }
    .heading-second-section{
       margin-left: 0px;
@@ -654,13 +662,13 @@ h1 {
      margin-top: 10%;
   }
   .logo-two {
-   width: 120px;
+     width: 120px;
   }
   .footer-rights_float{
      width: none;
   }
   .footer-rights{
-   width: none;
+     width: none;
 }
 }
 
@@ -854,6 +862,9 @@ h1 {
    .btn {
       width: 100%;
       margin-bottom: 20%;
+   }
+   .section__title-first {
+   font-size: 30px;
    }
 }
 /* Контакты */
