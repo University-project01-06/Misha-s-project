@@ -558,9 +558,9 @@ h1 {
 }
 }
 @media screen and (max-width: 576px) {
-   .popup {
-      width: 100%;
-      margin-left: -45%;
+   .down-angel {
+      display: none;
+   }
    }
    #first {
       height: 107vh;
@@ -617,10 +617,6 @@ h1 {
       font-size: 40px;
       margin-top: 31% ;
    }
-   .btn{
-      margin: 50px 0px 0px 0px;
-      margin-top: 30%;
-   }
    .heading-second-section{
       margin-left: 0px;
       text-align: center;
@@ -669,7 +665,6 @@ h1 {
   }
   .footer-rights{
      width: none;
-}
 }
 
    /* Занятия */
