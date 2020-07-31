@@ -130,4 +130,3 @@ open.addEventListener("click",function() {
     else popup.style.display = 'none'
 
   });
-
