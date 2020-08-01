@@ -20,6 +20,21 @@ ul, li {
 section {
     padding-top: 100px;
 }
+.group-link{
+   margin-top: 27px;
+}
+.group-link__item{
+   margin-right: 15px;
+}
+.fa-skype{
+   color: #aab7ff;
+}
+.fa-at{
+   color: white;
+}
+.fa-instagram{
+   color: #e994d8;
+}
 h1 {
    font-family: 'Open Sans', sans-serif;
    font-weight: 700;
@@ -535,10 +550,10 @@ h1 {
   padding-left: 100px;
   padding-bottom: 26px;
   background: #ededed;
-  list-style-type: none;
+  
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
-  transform: translate(200%, 0);
+  transform: translate(0%, -100%);
   transition: transform 1.0s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 #menu li
@@ -752,12 +767,12 @@ h1 {
       display: none;
    }
 }
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
    #menuToggle
 {
   display: block;
   position: relative;
-  top: 50px;
+  top: 37px;
   left: 5px;
   z-index: 1;
   -webkit-user-select: none;

@@ -122,6 +122,7 @@ $(function () {
         });
     });
 })
+
 let popup = document.querySelector('.menu');
 let open = document.querySelector('.check');
 menu.style.display = 'none'
