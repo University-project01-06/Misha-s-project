@@ -585,7 +585,7 @@ h1 {
       right: 0px;
    }
    .popup-close {
-      left: 58%;
+      left: 55%;
    }
    .down-angel {
       display: none;
@@ -1282,9 +1282,6 @@ h1 {
       margin-left: 28%;
    }
 }
-@media screen and (max-width: 768px) {
-   
-}
 @media screen and (max-width: 576px) {
 
    #exercises__first {
@@ -1396,7 +1393,6 @@ outline: 0px dotted;
 .popup-close {
 	position: absolute;
 	top: 10px;
-	right: 10px;
 }
 .form__input{
    width: 100%;
