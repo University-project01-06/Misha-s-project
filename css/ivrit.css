@@ -1472,3 +1472,6 @@ label{
  .arrow__down:hover {
    animation: bounce 1s;
  }
+ .down-angel:hover {
+   animation: bounce 1s;
+ }
