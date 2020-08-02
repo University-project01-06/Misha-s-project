@@ -129,5 +129,4 @@ menu.style.display = 'none'
 open.addEventListener("click",function() {
     if(popup.style.display == 'none')  popup.style.display = 'block';
     else popup.style.display = 'none'
-
   });

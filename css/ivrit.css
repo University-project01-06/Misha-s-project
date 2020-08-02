@@ -74,6 +74,7 @@ h1 {
   }
   .menu {
     margin: 35px 0px;
+    border-radius: 10%;
   }
   .menu__item {
     float: left;
@@ -95,7 +96,7 @@ h1 {
     transition: color 1s linear;
  }
  .phone {
-    border: 2px solid red;
+    border: 2px solid #1400ff;
     border-radius: 50px;
     background-color: white;
     padding: 4px 10px;
@@ -546,8 +547,8 @@ h1 {
 #menu
 {
   position: absolute;
-  width: 300px;
-  margin: -126px 0 0 -233px;
+  width: 320px;
+  margin: -126px 0 0 -267px;
   padding: 5px;
   padding-top: 97px;
   padding-left: 100px;
@@ -845,8 +846,8 @@ h1 {
 #menu
 {
   position: absolute;
-  width: 300px;
-  margin: -126px 0 0 -233px;
+  width: 320px;
+  margin: -126px 0 0 -267px;
   padding: 5px;
   padding-top: 97px;
   padding-left: 100px;
