@@ -1475,3 +1475,6 @@ label{
  .down-angel:hover {
    animation: bounce 1s;
  }
+ #menuToggle:hover{
+   animation: rubberBand 1s;
+ }
