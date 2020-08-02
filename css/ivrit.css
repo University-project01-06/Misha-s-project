@@ -482,6 +482,10 @@ h1 {
   -webkit-user-select: none;
   user-select: none;
 }
+.gmailyar{
+   position: relative;
+   right: 40px;
+}
 #menuToggle a
 {
   text-decoration: none;
@@ -576,6 +580,10 @@ h1 {
 }
 }
 @media screen and (max-width: 576px) {
+   .gmailyar{
+      position: relative;
+      right: 0px;
+   }
    .popup-close {
       left: 58%;
    }
@@ -762,8 +770,16 @@ h1 {
    .exercises__table {
       height: 500px;
    }
+   .gmailyar{
+      position: relative;
+      right: 0px;
+   }
 }
 @media screen and (max-width: 992px) {
+   .gmailyar{
+      position: relative;
+      right: 37px;
+   }
    .title__wrapper:after {
       display: none;
    }
@@ -872,6 +888,10 @@ h1 {
 }
 }
 @media screen and (max-width: 576px) {
+   .gmailyar {
+      position: relative;
+      right: 0px;
+   }
    .btn {
       width: 100%;
       margin-bottom: 20%;
@@ -1156,17 +1176,7 @@ h1 {
       margin-left: 20%;
    }
    .fa-instagram-square {
-      margin-left: 50%;
       margin-top: 50px;
-   }
-   .fa-envelope {
-      margin-left: 50%;
-   }
-   .fa-telegram {
-      margin-left: 50%;
-   }
-   .instagram {
-      margin-left: 35%;
    }
    .white__block {
       width: 90%;
@@ -1206,7 +1216,7 @@ h1 {
    }
    .name {
       width: 70%;
-      margin-left: 20%;
+      margin-left: 17%;
    }
    .section__title__developers {
       text-align: center;
